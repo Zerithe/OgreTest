@@ -9,6 +9,7 @@ public:
 	bool frameRenderingQueued(const Ogre::FrameEvent& evt) override;
 
 	void setFlashlight(Ogre::Light* flashLight);
+	void respawn();
 private:
 	Ogre::SceneManager* mScnMgr;
 	Ogre::Entity* mEnemy;

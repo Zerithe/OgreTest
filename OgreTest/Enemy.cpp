@@ -26,12 +26,20 @@ bool Enemy::isInFlashLight()
 	return angle < mFlashLight->getSpotlightOuterAngle().valueDegrees() * 0.5f;
 }
 
+void Enemy::respawn() 
+{
+	float x = static_cast<float>(std::rand() % 10000 - 2500);
+	float z = static_cast<float>(std::rand() % 10000 - 2500);
+	mEnemyNode->setPosition(Ogre::Vector3(x, mConstantY, z));
+	mHealth = 100.0f;
+}
+
 bool Enemy::frameRenderingQueued(const Ogre::FrameEvent& evt)
 {
 	//teleport when they hit 0.
 	if (mHealth <= 0)
 	{
-		mScnMgr->destroySceneNode(mEnemyNode);
+		respawn();
 	}
 
 	//player position

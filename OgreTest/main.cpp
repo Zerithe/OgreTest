@@ -43,6 +43,13 @@ void printLightInfo(const Ogre::Light* light, const std::string& lightName)
         << " Axis: " << axis.x << ", " << axis.y << ", " << axis.z << std::endl;
 }
 
+Ogre::Vector3 initOffsetGen() {
+    float x = static_cast<float>(std::rand() % 10000 - 2500);
+    float z = static_cast<float>(std::rand() % 10000 - 2500);
+    float constantY = 0;
+    return Ogre::Vector3(x, constantY, z);
+}
+
 /*
 class KeyHandler : public OgreBites::InputListener, public Ogre::FrameListener
 {
@@ -183,8 +190,8 @@ public:
         mCamNode->setPosition(newPosition);
         //mFlashLightNode->setOrientation(mCamNode->getOrientation());
 
-        printNodeInfo(mCamNode, "Camera Node");
-        printLightInfo(mFlashLight, "Flashlight Light");
+        //printNodeInfo(mCamNode, "Camera Node");
+        //printLightInfo(mFlashLight, "Flashlight Light");
         return true;
     }
 
@@ -202,7 +209,7 @@ private:
 int main(int argc, char* argv[])
 {
     //! [constructor]
-    OgreBites::ApplicationContext ctx("OgreTutorialApp");
+    OgreBites::ApplicationContext ctx("FlashlightGame");
     ctx.initApp();
     //! [constructor]
 
@@ -220,9 +227,9 @@ int main(int argc, char* argv[])
     Ogre::MeshManager::getSingleton().createPlane(
         "ground", Ogre::RGN_DEFAULT,
         plane,
-        5000, 5000, 20, 20,
+        10000, 10000, 40, 40,
         true,
-        1, 10, 10,
+        1, 30, 30,
         Ogre::Vector3::UNIT_Z);
     Ogre::Entity* groundEntity = scnMgr->createEntity("ground");
     scnMgr->getRootSceneNode()->createChildSceneNode()->attachObject(groundEntity);
@@ -259,11 +266,11 @@ int main(int argc, char* argv[])
     // and tell it to render into the main window
     ctx.getRenderWindow()->addViewport(cam);
 
-    //flashlight obj not part of char yet
-    Ogre::Entity* flashobj = scnMgr->createEntity("Mesh_4.mesh");
-    Ogre::SceneNode* flashnode = scnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(0, 160, 0));
-    flashnode->setScale(30, 30, 30);
-    flashnode->attachObject(flashobj);
+    ////flashlight obj not part of char yet
+    //Ogre::Entity* flashobj = scnMgr->createEntity("Mesh_4.mesh");
+    //Ogre::SceneNode* flashnode = scnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(0, 160, 0));
+    //flashnode->setScale(30, 30, 30);
+    //flashnode->attachObject(flashobj);
 
     //flashlight light
     Ogre::Light* flashLight = scnMgr->createLight("DirectionalLight");
@@ -277,17 +284,17 @@ int main(int argc, char* argv[])
     camNode->attachObject(flashLight);
     
 
-    // finally something to render
-    Ogre::Entity* ent = scnMgr->createEntity("ninja.mesh");
-    Ogre::SceneNode* node = scnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(-188,0,0));
-    node->attachObject(ent);
-    //! [setup]
+    //// finally something to render
+    //Ogre::Entity* ent = scnMgr->createEntity("ninja.mesh");
+    //Ogre::SceneNode* node = scnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(-188,0,0));
+    //node->attachObject(ent);
+    ////! [setup]
 
-    // head 2
-    Ogre::Entity* ent2 = scnMgr->createEntity("ogrehead.mesh");
-    Ogre::SceneNode* node2 = scnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(180,10,0));
-    node2->setScale(1, 1, 1);
-    node2->attachObject(ent2);
+    //// head 2
+    //Ogre::Entity* ent2 = scnMgr->createEntity("ogrehead.mesh");
+    //Ogre::SceneNode* node2 = scnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(180,10,0));
+    //node2->setScale(1, 1, 1);
+    //node2->attachObject(ent2);
     
     //fog
     Ogre::ColourValue fadeColour(0.2, 0.2, 0.2);
@@ -300,10 +307,16 @@ int main(int argc, char* argv[])
     ctx.addInputListener(&keyHandler);
     root->addFrameListener(&keyHandler);
 
-    Ogre::Vector3 initialOffset(0, 0, -1000);
-    Enemy* enemy = new Enemy(scnMgr, camNode, initialOffset);
-    root->addFrameListener(enemy);
-    enemy->setFlashlight(flashLight);
+    
+    Enemy* enemy1 = new Enemy(scnMgr, camNode, initOffsetGen());
+    Enemy* enemy2 = new Enemy(scnMgr, camNode, initOffsetGen());
+    Enemy* enemy3 = new Enemy(scnMgr, camNode, initOffsetGen());
+    root->addFrameListener(enemy1);
+    root->addFrameListener(enemy2);
+    root->addFrameListener(enemy3);
+    enemy1->setFlashlight(flashLight);
+    enemy2->setFlashlight(flashLight);
+    enemy3->setFlashlight(flashLight);
 
 
 
