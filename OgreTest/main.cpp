@@ -50,6 +50,18 @@ Ogre::Vector3 initOffsetGen() {
     return Ogre::Vector3(x, constantY, z);
 }
 
+bool isColliding(const Ogre::SceneNode* node1, const Ogre::SceneNode* node2, float threshold = 210.0f)
+{
+    Ogre::Vector3 pos1 = node1->getPosition();
+    Ogre::Vector3 pos2 = node2->getPosition();
+    float distance = pos1.distance(pos2);
+
+    // Debug output for distance calculation
+    std::cout << "Distance between player and exit: " << distance << std::endl;
+
+    return distance < threshold;
+}
+
 class Battery {
 public:
     Battery(Ogre::Light* flashlight) : mBatteryFull(100.0f), mBatteryLeft(100.f), mFlashlight(flashlight)
@@ -64,7 +76,7 @@ public:
 
     void checkBatt() {
 
-        mBatteryLeft -= 0.1f;
+        mBatteryLeft -= 0.0001f;
         cout << mBatteryLeft << endl;
         if (mBatteryLeft <= 0.0f) 
         {
@@ -147,8 +159,8 @@ private:
 class KeyHandler : public OgreBites::InputListener, public Ogre::FrameListener
 {
 public:
-    KeyHandler(Ogre::SceneNode* camNode, Ogre::Light* flashLight, Battery* battery)
-        : mCamNode(camNode), mFlashLight(flashLight), mMoveSpeed(400), mBackwardSpeed(100), mDirection(Ogre::Vector3::ZERO), mPitch(0), mYaw(0), mTime(0.0f), mFrameCount(0), mBattery(battery)
+    KeyHandler(Ogre::SceneNode* camNode, Ogre::Light* flashLight, Ogre::SceneNode* exitNode, Battery* battery)
+        : mCamNode(camNode), mFlashLight(flashLight), mExitNode(exitNode), mMoveSpeed(400), mBackwardSpeed(100), mDirection(Ogre::Vector3::ZERO), mPitch(0), mYaw(0), mTime(0.0f), mFrameCount(0), mBattery(battery)
     {
         //capture and hide mouse
         SDL_ShowCursor(SDL_DISABLE);
@@ -229,12 +241,24 @@ public:
         //printNodeInfo(mCamNode, "Camera Node");
         //printLightInfo(mFlashLight, "Flashlight Light");
 
+        // Debug print the player's and exit's positions
+        std::cout << "Player Position: " << newPosition << std::endl;
+        std::cout << "Exit Position: " << mExitNode->getPosition() << std::endl;
+
+        // Check for collision with the exit
+        if (isColliding(mCamNode, mExitNode, 210.0f))  // Adjust threshold if needed
+        {
+            std::cout << "You win!" << std::endl;
+            Ogre::Root::getSingleton().queueEndRendering(); // Stop rendering
+        }
+
         printFPS(evt.timeSinceLastFrame);
         return true;
     }
 
 private:
     Ogre::SceneNode* mCamNode;
+    Ogre::SceneNode* mExitNode;
     Ogre::Vector3 mDirection;
     Ogre::Light* mFlashLight;
     Battery* mBattery;
@@ -355,10 +379,16 @@ int main(int argc, char* argv[])
     scnMgr->setFog(Ogre::FOG_LINEAR, fadeColour, 0, 500, 800);
     ctx.getRenderWindow()->getViewport(0)->setBackgroundColour(fadeColour);
 
+    // Create the exit object
+    Ogre::Entity* exitEntity = scnMgr->createEntity("penguin.mesh");
+    Ogre::SceneNode* exitNode = scnMgr->getRootSceneNode()->createChildSceneNode(Ogre::Vector3(1000, 0, 1000));
+    exitNode->attachObject(exitEntity);
+    exitNode->setScale(10, 10, 10); // Adjust scale as needed
+
     //! [main]
         // register for input events
     Battery battery(flashLight);
-    KeyHandler keyHandler(camNode, flashLight, &battery);
+    KeyHandler keyHandler(camNode, flashLight, exitNode, &battery);
     ctx.addInputListener(&keyHandler);
     root->addFrameListener(&keyHandler);
 

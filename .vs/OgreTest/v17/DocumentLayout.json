@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\",
+  "WorkspaceRootPath": "C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|solutionrelative:OgreTest\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|solutionrelative:OgreTest\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87D1166F-9D65-401E-ADBC-A53A28B080B4}|OgreTest\\OgreTest.vcxproj|solutionrelative:OgreTest\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,24 +28,23 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\Enemy.h",
+              "DocumentMoniker": "C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\Enemy.h",
               "RelativeDocumentMoniker": "OgreTest\\Enemy.h",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\Enemy.h",
+              "ToolTip": "C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\Enemy.h",
               "RelativeToolTip": "OgreTest\\Enemy.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-04T14:30:16.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T14:30:16.955Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\Enemy.cpp",
               "RelativeDocumentMoniker": "OgreTest\\Enemy.cpp",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\Enemy.cpp",
               "RelativeToolTip": "OgreTest\\Enemy.cpp",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAAGAAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-04T14:30:16.979Z",
               "EditorCaption": ""
@@ -54,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\main.cpp",
               "RelativeDocumentMoniker": "OgreTest\\main.cpp",
-              "ToolTip": "C:\\Users\\jonat\\Desktop\\Stuff\\School Stuff\\Programs\\OgreTest\\OgreTest\\main.cpp",
+              "ToolTip": "C:\\Users\\Personal\\Documents\\School\\CCS Years\\Year 3\\Term 2\\THS Project Latest\\OgreTest\\main.cpp",
               "RelativeToolTip": "OgreTest\\main.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEIAAAAdAAAA",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAAANkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-04T14:30:17.017Z",
               "EditorCaption": ""

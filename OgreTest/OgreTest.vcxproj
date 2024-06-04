@@ -121,14 +121,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include;C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\out\build\include;C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include;C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include;C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\out\build\SDL2-build\include;C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Terrain\include;C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Overlay\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\repos\ogre\Components\Overlay\include;C:\repos\ogre\Components\Terrain\include;C:\repos\ogre\out\build\SDL2-build\include;C:\repos\ogre\OgreMain\include;C:\repos\ogre\Components\Bites\include;C:\repos\ogre\Components\RTShaderSystem\include;C:\repos\ogre\out\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\out\build\lib\MinSizeRel;C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\out\build\SDL2-build\MinSizeRel;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\repos\ogre\out\build\lib\MinSizeRel;C:\repos\ogre\out\build\SDL2-build\MinSizeRel;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>OgreBites.lib;OgreRTShaderSystem.lib;OgreMain.lib;SDL2.lib;SDL2main.lib;OgreTerrain.lib;OgreOverlay.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

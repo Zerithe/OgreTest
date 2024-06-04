@@ -1,511 +1,511 @@
 ﻿  main.cpp
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAxisAlignedBox.h(66,17): warning C4251: 'Ogre::AxisAlignedBox::mMinimum': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AxisAlignedBox'
+C:\repos\ogre\OgreMain\include\OgreAxisAlignedBox.h(66,17): warning C4251: 'Ogre::AxisAlignedBox::mMinimum': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AxisAlignedBox'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAxisAlignedBox.h(67,17): warning C4251: 'Ogre::AxisAlignedBox::mMaximum': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AxisAlignedBox'
+C:\repos\ogre\OgreMain\include\OgreAxisAlignedBox.h(67,17): warning C4251: 'Ogre::AxisAlignedBox::mMaximum': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AxisAlignedBox'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePlane.h(67,17): warning C4251: 'Ogre::Plane::normal': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Plane'
+C:\repos\ogre\OgreMain\include\OgrePlane.h(67,17): warning C4251: 'Ogre::Plane::normal': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Plane'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreSphere.h(56,17): warning C4251: 'Ogre::Sphere::mCenter': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Sphere'
+C:\repos\ogre\OgreMain\include\OgreSphere.h(56,17): warning C4251: 'Ogre::Sphere::mCenter': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Sphere'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreBone.h(140,17): warning C4251: 'Ogre::Bone::mBindDerivedInverseScale': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Bone'
+C:\repos\ogre\OgreMain\include\OgreBone.h(140,17): warning C4251: 'Ogre::Bone::mBindDerivedInverseScale': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Bone'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreBone.h(144,17): warning C4251: 'Ogre::Bone::mBindDerivedInversePosition': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Bone'
+C:\repos\ogre\OgreMain\include\OgreBone.h(144,17): warning C4251: 'Ogre::Bone::mBindDerivedInversePosition': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Bone'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreDefaultHardwareBufferManager.h(86,52): warning C4251: 'Ogre::DefaultHardwareBufferManager::mImpl': class 'std::unique_ptr<Ogre::HardwareBufferManagerBase,std::default_delete<Ogre::HardwareBufferManagerBase>>' needs to have dll-interface to be used by clients of class 'Ogre::DefaultHardwareBufferManager'
+C:\repos\ogre\OgreMain\include\OgreDefaultHardwareBufferManager.h(86,52): warning C4251: 'Ogre::DefaultHardwareBufferManager::mImpl': class 'std::unique_ptr<Ogre::HardwareBufferManagerBase,std::default_delete<Ogre::HardwareBufferManagerBase>>' needs to have dll-interface to be used by clients of class 'Ogre::DefaultHardwareBufferManager'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::HardwareBufferManagerBase,std::default_delete<Ogre::HardwareBufferManagerBase>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreWorkQueue.h(206,91): warning C4244: 'argument': conversion from 'Ogre::uint64' to 'unsigned long', possible loss of data
+C:\repos\ogre\OgreMain\include\OgreWorkQueue.h(206,91): warning C4244: 'argument': conversion from 'Ogre::uint64' to 'unsigned long', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreRay.h(48,17): warning C4251: 'Ogre::Ray::mOrigin': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Ray'
+C:\repos\ogre\OgreMain\include\OgreRay.h(48,17): warning C4251: 'Ogre::Ray::mOrigin': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Ray'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreRay.h(49,17): warning C4251: 'Ogre::Ray::mDirection': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Ray'
+C:\repos\ogre\OgreMain\include\OgreRay.h(49,17): warning C4251: 'Ogre::Ray::mDirection': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::Ray'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(74,25): warning C4251: 'Ogre::AutoParamDataSource::mCameraPosition': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(74,25): warning C4251: 'Ogre::AutoParamDataSource::mCameraPosition': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(75,25): warning C4251: 'Ogre::AutoParamDataSource::mCameraPositionObjectSpace': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(75,25): warning C4251: 'Ogre::AutoParamDataSource::mCameraPositionObjectSpace': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(80,25): warning C4251: 'Ogre::AutoParamDataSource::mShadowCamDepthRanges': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(80,25): warning C4251: 'Ogre::AutoParamDataSource::mShadowCamDepthRanges': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(85,25): warning C4251: 'Ogre::AutoParamDataSource::mLodCameraPosition': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(85,25): warning C4251: 'Ogre::AutoParamDataSource::mLodCameraPosition': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(86,25): warning C4251: 'Ogre::AutoParamDataSource::mLodCameraPositionObjectSpace': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(86,25): warning C4251: 'Ogre::AutoParamDataSource::mLodCameraPositionObjectSpace': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(108,18): warning C4251: 'Ogre::AutoParamDataSource::mFogParams': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(108,18): warning C4251: 'Ogre::AutoParamDataSource::mFogParams': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(109,18): warning C4251: 'Ogre::AutoParamDataSource::mPointParams': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(109,18): warning C4251: 'Ogre::AutoParamDataSource::mPointParams': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(111,25): warning C4251: 'Ogre::AutoParamDataSource::mSceneDepthRange': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(111,25): warning C4251: 'Ogre::AutoParamDataSource::mSceneDepthRange': class 'Ogre::Vector<4,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<4,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreAutoParamDataSource.h(119,17): warning C4251: 'Ogre::AutoParamDataSource::mCameraRelativePosition': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
+C:\repos\ogre\OgreMain\include\OgreAutoParamDataSource.h(119,17): warning C4251: 'Ogre::AutoParamDataSource::mCameraRelativePosition': class 'Ogre::Vector<3,Ogre::Real>' needs to have dll-interface to be used by clients of class 'Ogre::AutoParamDataSource'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(248,60):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(248,60):
   see declaration of 'Ogre::Vector<3,Ogre::Real>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreTextureManager.h(421,20): warning C4251: 'Ogre::TextureManager::mWarningTexture': class 'Ogre::SharedPtr<Ogre::Texture>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
+C:\repos\ogre\OgreMain\include\OgreTextureManager.h(421,20): warning C4251: 'Ogre::TextureManager::mWarningTexture': class 'Ogre::SharedPtr<Ogre::Texture>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(277,32):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(277,32):
   see declaration of 'Ogre::SharedPtr<Ogre::Texture>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreTextureManager.h(422,20): warning C4251: 'Ogre::TextureManager::mDefaultSampler': class 'std::shared_ptr<Ogre::Sampler>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
+C:\repos\ogre\OgreMain\include\OgreTextureManager.h(422,20): warning C4251: 'Ogre::TextureManager::mDefaultSampler': class 'std::shared_ptr<Ogre::Sampler>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::Sampler>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreTextureManager.h(423,38): warning C4251: 'Ogre::TextureManager::mNamedSamplers': class 'std::map<Ogre::String,Ogre::SamplerPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::SamplerPtr>>>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
+C:\repos\ogre\OgreMain\include\OgreTextureManager.h(423,38): warning C4251: 'Ogre::TextureManager::mNamedSamplers': class 'std::map<Ogre::String,Ogre::SamplerPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::SamplerPtr>>>' needs to have dll-interface to be used by clients of class 'Ogre::TextureManager'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::String,Ogre::SamplerPtr,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::SamplerPtr>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreTimer.h(41,47): warning C4251: 'Ogre::Timer::start': class 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' needs to have dll-interface to be used by clients of class 'Ogre::Timer'
+C:\repos\ogre\OgreMain\include\OgreTimer.h(41,47): warning C4251: 'Ogre::Timer::start': class 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' needs to have dll-interface to be used by clients of class 'Ogre::Timer'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_chrono.hpp(190,11):
   see declaration of 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreStaticPluginLoader.h(27,36): warning C4251: 'OgreBites::StaticPluginLoader::mPlugins': class 'std::vector<Ogre::Plugin *,std::allocator<Ogre::Plugin *>>' needs to have dll-interface to be used by clients of class 'OgreBites::StaticPluginLoader'
+C:\repos\ogre\Components\Bites\include\OgreStaticPluginLoader.h(27,36): warning C4251: 'OgreBites::StaticPluginLoader::mPlugins': class 'std::vector<Ogre::Plugin *,std::allocator<Ogre::Plugin *>>' needs to have dll-interface to be used by clients of class 'OgreBites::StaticPluginLoader'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::Plugin *,std::allocator<Ogre::Plugin *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramManager.h(161,25): warning C4251: 'Ogre::RTShader::ProgramManager::mProgramProcessorsMap': class 'std::map<Ogre::String,Ogre::RTShader::ProgramProcessor *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ProgramProcessor *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramManager.h(161,25): warning C4251: 'Ogre::RTShader::ProgramManager::mProgramProcessorsMap': class 'std::map<Ogre::String,Ogre::RTShader::ProgramProcessor *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ProgramProcessor *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::String,Ogre::RTShader::ProgramProcessor *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ProgramProcessor *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramManager.h(163,32): warning C4251: 'Ogre::RTShader::ProgramManager::mShaderList': class 'std::vector<Ogre::GpuProgramPtr,std::allocator<Ogre::GpuProgramPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramManager.h(163,32): warning C4251: 'Ogre::RTShader::ProgramManager::mShaderList': class 'std::vector<Ogre::GpuProgramPtr,std::allocator<Ogre::GpuProgramPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::GpuProgramPtr,std::allocator<Ogre::GpuProgramPtr>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramManager.h(165,26): warning C4251: 'Ogre::RTShader::ProgramManager::mDefaultProgramProcessors': class 'std::vector<Ogre::RTShader::ProgramProcessor *,std::allocator<Ogre::RTShader::ProgramProcessor *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramManager.h(165,26): warning C4251: 'Ogre::RTShader::ProgramManager::mDefaultProgramProcessors': class 'std::vector<Ogre::RTShader::ProgramProcessor *,std::allocator<Ogre::RTShader::ProgramProcessor *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramManager'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::ProgramProcessor *,std::allocator<Ogre::RTShader::ProgramProcessor *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderParameter.h(260,12): warning C4251: 'Ogre::RTShader::Parameter::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(260,12): warning C4251: 'Ogre::RTShader::Parameter::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderParameter.h(263,12): warning C4251: 'Ogre::RTShader::Parameter::mBindName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(263,12): warning C4251: 'Ogre::RTShader::Parameter::mBindName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderParameter.h(269,12): warning C4251: 'Ogre::RTShader::Parameter::mStructType': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(269,12): warning C4251: 'Ogre::RTShader::Parameter::mStructType': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Parameter'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderParameter.h(339,59): warning C4267: 'return': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderParameter.h(339,59): warning C4267: 'return': conversion from 'size_t' to 'Ogre::uint32', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramWriter.h(100,29): warning C4251: 'Ogre::RTShader::ProgramWriter::mGpuConstTypeMap': class 'std::map<Ogre::GpuConstantType,const char *,std::less<Ogre::GpuConstantType>,std::allocator<std::pair<const Ogre::GpuConstantType,const char *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramWriter'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramWriter.h(100,29): warning C4251: 'Ogre::RTShader::ProgramWriter::mGpuConstTypeMap': class 'std::map<Ogre::GpuConstantType,const char *,std::less<Ogre::GpuConstantType>,std::allocator<std::pair<const Ogre::GpuConstantType,const char *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramWriter'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::GpuConstantType,const char *,std::less<Ogre::GpuConstantType>,std::allocator<std::pair<const Ogre::GpuConstantType,const char *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramWriter.h(102,30): warning C4251: 'Ogre::RTShader::ProgramWriter::mParamSemanticMap': class 'std::map<Ogre::RTShader::Parameter::Semantic,const char *,std::less<Ogre::RTShader::Parameter::Semantic>,std::allocator<std::pair<const Ogre::RTShader::Parameter::Semantic,const char *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramWriter'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramWriter.h(102,30): warning C4251: 'Ogre::RTShader::ProgramWriter::mParamSemanticMap': class 'std::map<Ogre::RTShader::Parameter::Semantic,const char *,std::less<Ogre::RTShader::Parameter::Semantic>,std::allocator<std::pair<const Ogre::RTShader::Parameter::Semantic,const char *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramWriter'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::RTShader::Parameter::Semantic,const char *,std::less<Ogre::RTShader::Parameter::Semantic>,std::allocator<std::pair<const Ogre::RTShader::Parameter::Semantic,const char *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramWriter.h(104,22): warning C4251: 'Ogre::RTShader::ProgramWriter::mLocalRenames': class 'std::set<Ogre::String,std::less<Ogre::String>,std::allocator<Ogre::String>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramWriter'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramWriter.h(104,22): warning C4251: 'Ogre::RTShader::ProgramWriter::mLocalRenames': class 'std::set<Ogre::String,std::less<Ogre::String>,std::allocator<Ogre::String>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramWriter'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set(51,7):
   see declaration of 'std::set<Ogre::String,std::less<Ogre::String>,std::allocator<Ogre::String>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(197,39): warning C4251: 'Ogre::RTShader::SubRenderState::mThisAccessor': class 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderState'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(197,39): warning C4251: 'Ogre::RTShader::SubRenderState::mThisAccessor': class 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderState'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreSharedPtr.h(44,29):
+  C:\repos\ogre\OgreMain\include\OgreSharedPtr.h(44,29):
   see declaration of 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(199,31): warning C4251: 'Ogre::RTShader::SubRenderState::mOtherAccessor': class 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderState'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(199,31): warning C4251: 'Ogre::RTShader::SubRenderState::mOtherAccessor': class 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderState'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreSharedPtr.h(44,29):
+  C:\repos\ogre\OgreMain\include\OgreSharedPtr.h(44,29):
   see declaration of 'Ogre::SharedPtr<Ogre::RTShader::SubRenderStateAccessor>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(254,31): warning C4251: 'Ogre::RTShader::SubRenderStateAccessor::mSubRenderStateInstancesSet': class 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderStateAccessor'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(254,31): warning C4251: 'Ogre::RTShader::SubRenderStateAccessor::mSubRenderStateInstancesSet': class 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderStateAccessor'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set(51,7):
   see declaration of 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(359,23): warning C4251: 'Ogre::RTShader::SubRenderStateFactory::mSubRenderStateList': class 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderStateFactory'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderSubRenderState.h(359,23): warning C4251: 'Ogre::RTShader::SubRenderStateFactory::mSubRenderStateList': class 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::SubRenderStateFactory'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set(51,7):
   see declaration of 'std::set<Ogre::RTShader::SubRenderState *,std::less<Ogre::RTShader::SubRenderState *>,std::allocator<Ogre::RTShader::SubRenderState *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramSet.h(69,30): warning C4251: 'Ogre::RTShader::ProgramSet::mVSCpuProgram': class 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramSet.h(69,30): warning C4251: 'Ogre::RTShader::ProgramSet::mVSCpuProgram': class 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramSet.h(71,30): warning C4251: 'Ogre::RTShader::ProgramSet::mPSCpuProgram': class 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramSet.h(71,30): warning C4251: 'Ogre::RTShader::ProgramSet::mPSCpuProgram': class 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::Program,std::default_delete<Ogre::RTShader::Program>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramSet.h(73,19): warning C4251: 'Ogre::RTShader::ProgramSet::mVSGpuProgram': class 'Ogre::SharedPtr<Ogre::GpuProgram>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramSet.h(73,19): warning C4251: 'Ogre::RTShader::ProgramSet::mVSGpuProgram': class 'Ogre::SharedPtr<Ogre::GpuProgram>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(277,32):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(277,32):
   see declaration of 'Ogre::SharedPtr<Ogre::GpuProgram>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderProgramSet.h(75,19): warning C4251: 'Ogre::RTShader::ProgramSet::mPSGpuProgram': class 'Ogre::SharedPtr<Ogre::GpuProgram>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderProgramSet.h(75,19): warning C4251: 'Ogre::RTShader::ProgramSet::mPSGpuProgram': class 'Ogre::SharedPtr<Ogre::GpuProgram>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ProgramSet'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgrePrerequisites.h(277,32):
+  C:\repos\ogre\OgreMain\include\OgrePrerequisites.h(277,32):
   see declaration of 'Ogre::SharedPtr<Ogre::GpuProgram>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderRenderState.h(115,24): warning C4251: 'Ogre::RTShader::RenderState::mSubRenderStateList': class 'std::vector<Ogre::RTShader::SubRenderState *,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::RenderState'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderRenderState.h(115,24): warning C4251: 'Ogre::RTShader::RenderState::mSubRenderStateList': class 'std::vector<Ogre::RTShader::SubRenderState *,std::allocator<Ogre::RTShader::SubRenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::RenderState'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::SubRenderState *,std::allocator<Ogre::RTShader::SubRenderState *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderRenderState.h(200,33): warning C4251: 'Ogre::RTShader::TargetRenderState::mProgramSet': class 'std::unique_ptr<Ogre::RTShader::ProgramSet,std::default_delete<Ogre::RTShader::ProgramSet>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::TargetRenderState'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderRenderState.h(200,33): warning C4251: 'Ogre::RTShader::TargetRenderState::mProgramSet': class 'std::unique_ptr<Ogre::RTShader::ProgramSet,std::default_delete<Ogre::RTShader::ProgramSet>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::TargetRenderState'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::ProgramSet,std::default_delete<Ogre::RTShader::ProgramSet>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(449,19): warning C4251: 'Ogre::RTShader::ShaderGenerator::DEFAULT_SCHEME_NAME': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(449,19): warning C4251: 'Ogre::RTShader::ShaderGenerator::DEFAULT_SCHEME_NAME': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(586,23): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::UserKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(586,23): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::UserKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(609,20): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mPassEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGPass *,std::allocator<Ogre::RTShader::ShaderGenerator::SGPass *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(609,20): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mPassEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGPass *,std::allocator<Ogre::RTShader::ShaderGenerator::SGPass *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::ShaderGenerator::SGPass *,std::allocator<Ogre::RTShader::ShaderGenerator::SGPass *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(612,25): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mCustomRenderStates': class 'std::vector<Ogre::RTShader::RenderState *,std::allocator<Ogre::RTShader::RenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(612,25): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mCustomRenderStates': class 'std::vector<Ogre::RTShader::RenderState *,std::allocator<Ogre::RTShader::RenderState *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::RenderState *,std::allocator<Ogre::RTShader::RenderState *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(616,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mDstTechniqueSchemeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(616,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGTechnique::mDstTechniqueSchemeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGTechnique'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(644,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(644,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(646,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mGroup': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(646,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mGroup': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(648,25): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mTechniqueEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(648,25): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGMaterial::mTechniqueEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGMaterial'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(721,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(721,16): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(723,25): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mTechniqueEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(723,25): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mTechniqueEntries': class 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::ShaderGenerator::SGTechnique *,std::allocator<Ogre::RTShader::ShaderGenerator::SGTechnique *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(727,38): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mRenderState': class 'std::unique_ptr<Ogre::RTShader::RenderState,std::default_delete<Ogre::RTShader::RenderState>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(727,38): warning C4251: 'Ogre::RTShader::ShaderGenerator::SGScheme::mRenderState': class 'std::unique_ptr<Ogre::RTShader::RenderState,std::default_delete<Ogre::RTShader::RenderState>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator::SGScheme'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::RenderState,std::default_delete<Ogre::RTShader::RenderState>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(818,21): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSceneManagerMap': class 'std::set<Ogre::SceneManager *,std::less<Ogre::SceneManager *>,std::allocator<Ogre::SceneManager *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(818,21): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSceneManagerMap': class 'std::set<Ogre::SceneManager *,std::less<Ogre::SceneManager *>,std::allocator<Ogre::SceneManager *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set(51,7):
   see declaration of 'std::set<Ogre::SceneManager *,std::less<Ogre::SceneManager *>,std::allocator<Ogre::SceneManager *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(820,45): warning C4251: 'Ogre::RTShader::ShaderGenerator::mRenderObjectListener': class 'std::unique_ptr<Ogre::RTShader::SGRenderObjectListener,std::default_delete<Ogre::RTShader::SGRenderObjectListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(820,45): warning C4251: 'Ogre::RTShader::ShaderGenerator::mRenderObjectListener': class 'std::unique_ptr<Ogre::RTShader::SGRenderObjectListener,std::default_delete<Ogre::RTShader::SGRenderObjectListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::SGRenderObjectListener,std::default_delete<Ogre::RTShader::SGRenderObjectListener>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(822,45): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSceneManagerListener': class 'std::unique_ptr<Ogre::RTShader::SGSceneManagerListener,std::default_delete<Ogre::RTShader::SGSceneManagerListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(822,45): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSceneManagerListener': class 'std::unique_ptr<Ogre::RTShader::SGSceneManagerListener,std::default_delete<Ogre::RTShader::SGSceneManagerListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::SGSceneManagerListener,std::default_delete<Ogre::RTShader::SGSceneManagerListener>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(824,48): warning C4251: 'Ogre::RTShader::ShaderGenerator::mScriptTranslatorManager': class 'std::unique_ptr<Ogre::RTShader::SGScriptTranslatorManager,std::default_delete<Ogre::RTShader::SGScriptTranslatorManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(824,48): warning C4251: 'Ogre::RTShader::ShaderGenerator::mScriptTranslatorManager': class 'std::unique_ptr<Ogre::RTShader::SGScriptTranslatorManager,std::default_delete<Ogre::RTShader::SGScriptTranslatorManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::SGScriptTranslatorManager,std::default_delete<Ogre::RTShader::SGScriptTranslatorManager>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(826,51): warning C4251: 'Ogre::RTShader::ShaderGenerator::mMaterialSerializerListener': class 'std::unique_ptr<Ogre::RTShader::SGMaterialSerializerListener,std::default_delete<Ogre::RTShader::SGMaterialSerializerListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(826,51): warning C4251: 'Ogre::RTShader::ShaderGenerator::mMaterialSerializerListener': class 'std::unique_ptr<Ogre::RTShader::SGMaterialSerializerListener,std::default_delete<Ogre::RTShader::SGMaterialSerializerListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::SGMaterialSerializerListener,std::default_delete<Ogre::RTShader::SGMaterialSerializerListener>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(828,46): warning C4251: 'Ogre::RTShader::ShaderGenerator::mResourceGroupListener': class 'std::unique_ptr<Ogre::RTShader::SGResourceGroupListener,std::default_delete<Ogre::RTShader::SGResourceGroupListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(828,46): warning C4251: 'Ogre::RTShader::ShaderGenerator::mResourceGroupListener': class 'std::unique_ptr<Ogre::RTShader::SGResourceGroupListener,std::default_delete<Ogre::RTShader::SGResourceGroupListener>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::SGResourceGroupListener,std::default_delete<Ogre::RTShader::SGResourceGroupListener>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(832,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mShaderLanguage': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(832,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mShaderLanguage': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(834,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mVertexShaderProfiles': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(834,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mVertexShaderProfiles': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(836,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mFragmentShaderProfiles': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(836,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mFragmentShaderProfiles': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(838,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mShaderCachePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(838,12): warning C4251: 'Ogre::RTShader::ShaderGenerator::mShaderCachePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(840,37): warning C4251: 'Ogre::RTShader::ShaderGenerator::mProgramManager': class 'std::unique_ptr<Ogre::RTShader::ProgramManager,std::default_delete<Ogre::RTShader::ProgramManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(840,37): warning C4251: 'Ogre::RTShader::ShaderGenerator::mProgramManager': class 'std::unique_ptr<Ogre::RTShader::ProgramManager,std::default_delete<Ogre::RTShader::ProgramManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::ProgramManager,std::default_delete<Ogre::RTShader::ProgramManager>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(842,43): warning C4251: 'Ogre::RTShader::ShaderGenerator::mProgramWriterManager': class 'std::unique_ptr<Ogre::RTShader::ProgramWriterManager,std::default_delete<Ogre::RTShader::ProgramWriterManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(842,43): warning C4251: 'Ogre::RTShader::ShaderGenerator::mProgramWriterManager': class 'std::unique_ptr<Ogre::RTShader::ProgramWriterManager,std::default_delete<Ogre::RTShader::ProgramWriterManager>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<Ogre::RTShader::ProgramWriterManager,std::default_delete<Ogre::RTShader::ProgramWriterManager>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(846,19): warning C4251: 'Ogre::RTShader::ShaderGenerator::mMaterialEntriesMap': class 'std::map<Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *,Ogre::RTShader::ShaderGenerator::MatGroupPair_less,std::allocator<std::pair<const Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(846,19): warning C4251: 'Ogre::RTShader::ShaderGenerator::mMaterialEntriesMap': class 'std::map<Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *,Ogre::RTShader::ShaderGenerator::MatGroupPair_less,std::allocator<std::pair<const Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *,Ogre::RTShader::ShaderGenerator::MatGroupPair_less,std::allocator<std::pair<const Ogre::RTShader::ShaderGenerator::MatGroupPair,Ogre::RTShader::ShaderGenerator::SGMaterial *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(848,17): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSchemeEntriesMap': class 'std::map<Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(848,17): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSchemeEntriesMap': class 'std::map<Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::ShaderGenerator::SGScheme *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(850,20): warning C4251: 'Ogre::RTShader::ShaderGenerator::mTechniqueEntriesMap': class 'std::map<Ogre::RTShader::ShaderGenerator::SGTechnique *,Ogre::RTShader::ShaderGenerator::SGTechnique *,std::less<Ogre::RTShader::ShaderGenerator::SGTechnique *>,std::allocator<std::pair<Ogre::RTShader::ShaderGenerator::SGTechnique *const ,Ogre::RTShader::ShaderGenerator::SGTechnique *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(850,20): warning C4251: 'Ogre::RTShader::ShaderGenerator::mTechniqueEntriesMap': class 'std::map<Ogre::RTShader::ShaderGenerator::SGTechnique *,Ogre::RTShader::ShaderGenerator::SGTechnique *,std::less<Ogre::RTShader::ShaderGenerator::SGTechnique *>,std::allocator<std::pair<Ogre::RTShader::ShaderGenerator::SGTechnique *const ,Ogre::RTShader::ShaderGenerator::SGTechnique *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::RTShader::ShaderGenerator::SGTechnique *,Ogre::RTShader::ShaderGenerator::SGTechnique *,std::less<Ogre::RTShader::ShaderGenerator::SGTechnique *>,std::allocator<std::pair<Ogre::RTShader::ShaderGenerator::SGTechnique *const ,Ogre::RTShader::ShaderGenerator::SGTechnique *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(852,30): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSubRenderStateFactories': class 'std::map<Ogre::String,Ogre::RTShader::SubRenderStateFactory *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::SubRenderStateFactory *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(852,30): warning C4251: 'Ogre::RTShader::ShaderGenerator::mSubRenderStateFactories': class 'std::map<Ogre::String,Ogre::RTShader::SubRenderStateFactory *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::SubRenderStateFactory *>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<Ogre::String,Ogre::RTShader::SubRenderStateFactory *,std::less<Ogre::String>,std::allocator<std::pair<const Ogre::String,Ogre::RTShader::SubRenderStateFactory *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderGenerator.h(854,41): warning C4251: 'Ogre::RTShader::ShaderGenerator::mBuiltinSRSFactories': class 'std::vector<Ogre::RTShader::SubRenderStateFactory *,std::allocator<Ogre::RTShader::SubRenderStateFactory *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderGenerator.h(854,41): warning C4251: 'Ogre::RTShader::ShaderGenerator::mBuiltinSRSFactories': class 'std::vector<Ogre::RTShader::SubRenderStateFactory *,std::allocator<Ogre::RTShader::SubRenderStateFactory *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::ShaderGenerator'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::SubRenderStateFactory *,std::allocator<Ogre::RTShader::SubRenderStateFactory *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(145,18): warning C4251: 'Ogre::RTShader::Operand::mParameter': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Operand'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(145,18): warning C4251: 'Ogre::RTShader::Operand::mParameter': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Operand'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(185,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(227,19): warning C4251: 'Ogre::RTShader::FunctionAtom::mOperands': class 'std::vector<Ogre::RTShader::Operand,std::allocator<Ogre::RTShader::Operand>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionAtom'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(227,19): warning C4251: 'Ogre::RTShader::FunctionAtom::mOperands': class 'std::vector<Ogre::RTShader::Operand,std::allocator<Ogre::RTShader::Operand>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionAtom'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::Operand,std::allocator<Ogre::RTShader::Operand>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(228,12): warning C4251: 'Ogre::RTShader::FunctionAtom::mFunctionName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionAtom'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(228,12): warning C4251: 'Ogre::RTShader::FunctionAtom::mFunctionName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionAtom'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(286,12): warning C4251: 'Ogre::RTShader::FunctionInvocation::mReturnType': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionInvocation'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunctionAtom.h(286,12): warning C4251: 'Ogre::RTShader::FunctionInvocation::mReturnType': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FunctionInvocation'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunction.h(276,25): warning C4251: 'Ogre::RTShader::Function::mInputParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunction.h(276,25): warning C4251: 'Ogre::RTShader::Function::mInputParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunction.h(278,25): warning C4251: 'Ogre::RTShader::Function::mOutputParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunction.h(278,25): warning C4251: 'Ogre::RTShader::Function::mOutputParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunction.h(280,25): warning C4251: 'Ogre::RTShader::Function::mLocalParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunction.h(280,25): warning C4251: 'Ogre::RTShader::Function::mLocalParameters': class 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::ParameterPtr,std::allocator<Ogre::RTShader::ParameterPtr>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunction.h(282,48): warning C4251: 'Ogre::RTShader::Function::mAtomInstances': class 'std::map<size_t,Ogre::RTShader::FunctionAtomInstanceList,std::less<size_t>,std::allocator<std::pair<const size_t,Ogre::RTShader::FunctionAtomInstanceList>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunction.h(282,48): warning C4251: 'Ogre::RTShader::Function::mAtomInstances': class 'std::map<size_t,Ogre::RTShader::FunctionAtomInstanceList,std::less<size_t>,std::allocator<std::pair<const size_t,Ogre::RTShader::FunctionAtomInstanceList>>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(72,7):
   see declaration of 'std::map<size_t,Ogre::RTShader::FunctionAtomInstanceList,std::less<size_t>,std::allocator<std::pair<const size_t,Ogre::RTShader::FunctionAtomInstanceList>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFunction.h(283,30): warning C4251: 'Ogre::RTShader::Function::mSortedAtomInstances': class 'std::vector<Ogre::RTShader::FunctionAtom *,std::allocator<Ogre::RTShader::FunctionAtom *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFunction.h(283,30): warning C4251: 'Ogre::RTShader::Function::mSortedAtomInstances': class 'std::vector<Ogre::RTShader::FunctionAtom *,std::allocator<Ogre::RTShader::FunctionAtom *>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::Function'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::FunctionAtom *,std::allocator<Ogre::RTShader::FunctionAtom *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(82,19): warning C4251: 'Ogre::RTShader::FFPTexturing::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(82,19): warning C4251: 'Ogre::RTShader::FFPTexturing::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(196,27): warning C4251: 'Ogre::RTShader::FFPTexturing::mTextureUnitParamsList': class 'std::vector<Ogre::RTShader::FFPTexturing::TextureUnitParams,std::allocator<Ogre::RTShader::FFPTexturing::TextureUnitParams>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(196,27): warning C4251: 'Ogre::RTShader::FFPTexturing::mTextureUnitParamsList': class 'std::vector<Ogre::RTShader::FFPTexturing::TextureUnitParams,std::allocator<Ogre::RTShader::FFPTexturing::TextureUnitParams>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::FFPTexturing::TextureUnitParams,std::allocator<Ogre::RTShader::FFPTexturing::TextureUnitParams>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(198,25): warning C4251: 'Ogre::RTShader::FFPTexturing::mWorldMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(198,25): warning C4251: 'Ogre::RTShader::FFPTexturing::mWorldMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(200,25): warning C4251: 'Ogre::RTShader::FFPTexturing::mWorldITMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(200,25): warning C4251: 'Ogre::RTShader::FFPTexturing::mWorldITMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(202,25): warning C4251: 'Ogre::RTShader::FFPTexturing::mViewMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(202,25): warning C4251: 'Ogre::RTShader::FFPTexturing::mViewMatrix': class 'std::shared_ptr<Ogre::RTShader::UniformParameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::UniformParameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(204,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mVSInputNormal': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(204,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mVSInputNormal': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(206,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mVSInputPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(206,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mVSInputPos': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(209,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSOutDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(209,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSOutDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(212,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(212,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSDiffuse': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(214,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSSpecular': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderFFPTexturing.h(214,18): warning C4251: 'Ogre::RTShader::FFPTexturing::mPSSpecular': class 'std::shared_ptr<Ogre::RTShader::Parameter>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::FFPTexturing'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
   see declaration of 'std::shared_ptr<Ogre::RTShader::Parameter>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderExLayeredBlending.h(90,19): warning C4251: 'Ogre::RTShader::LayeredBlending::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::LayeredBlending'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderExLayeredBlending.h(90,19): warning C4251: 'Ogre::RTShader::LayeredBlending::Type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::LayeredBlending'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\RTShaderSystem\include\OgreShaderExLayeredBlending.h(136,31): warning C4251: 'Ogre::RTShader::LayeredBlending::mTextureBlends': class 'std::vector<Ogre::RTShader::LayeredBlending::TextureBlend,std::allocator<Ogre::RTShader::LayeredBlending::TextureBlend>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::LayeredBlending'
+C:\repos\ogre\Components\RTShaderSystem\include\OgreShaderExLayeredBlending.h(136,31): warning C4251: 'Ogre::RTShader::LayeredBlending::mTextureBlends': class 'std::vector<Ogre::RTShader::LayeredBlending::TextureBlend,std::allocator<Ogre::RTShader::LayeredBlending::TextureBlend>>' needs to have dll-interface to be used by clients of class 'Ogre::RTShader::LayeredBlending'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<Ogre::RTShader::LayeredBlending::TextureBlend,std::allocator<Ogre::RTShader::LayeredBlending::TextureBlend>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreSGTechniqueResolverListener.h(46,84): warning C4275: non dll-interface class 'Ogre::MaterialManager::Listener' used as base for dll-interface class 'OgreBites::SGTechniqueResolverListener'
+C:\repos\ogre\Components\Bites\include\OgreSGTechniqueResolverListener.h(46,84): warning C4275: non dll-interface class 'Ogre::MaterialManager::Listener' used as base for dll-interface class 'OgreBites::SGTechniqueResolverListener'
   (compiling source file 'main.cpp')
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\OgreMain\include\OgreMaterialManager.h(82,15):
+  C:\repos\ogre\OgreMain\include\OgreMaterialManager.h(82,15):
   see declaration of 'Ogre::MaterialManager::Listener'
-  C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreSGTechniqueResolverListener.h(46,24):
+  C:\repos\ogre\Components\Bites\include\OgreSGTechniqueResolverListener.h(46,24):
   see declaration of 'OgreBites::SGTechniqueResolverListener'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreInput.h(200,33): warning C4251: 'OgreBites::InputListenerChain::mListenerChain': class 'std::vector<OgreBites::InputListener *,std::allocator<OgreBites::InputListener *>>' needs to have dll-interface to be used by clients of class 'OgreBites::InputListenerChain'
+C:\repos\ogre\Components\Bites\include\OgreInput.h(200,33): warning C4251: 'OgreBites::InputListenerChain::mListenerChain': class 'std::vector<OgreBites::InputListener *,std::allocator<OgreBites::InputListener *>>' needs to have dll-interface to be used by clients of class 'OgreBites::InputListenerChain'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<OgreBites::InputListener *,std::allocator<OgreBites::InputListener *>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreApplicationContextBase.h(310,22): warning C4251: 'OgreBites::ApplicationContextBase::mNextRenderer': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\repos\ogre\Components\Bites\include\OgreApplicationContextBase.h(310,22): warning C4251: 'OgreBites::ApplicationContextBase::mNextRenderer': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreApplicationContextBase.h(311,22): warning C4251: 'OgreBites::ApplicationContextBase::mAppName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\repos\ogre\Components\Bites\include\OgreApplicationContextBase.h(311,22): warning C4251: 'OgreBites::ApplicationContextBase::mAppName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
   see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreApplicationContextBase.h(314,20): warning C4251: 'OgreBites::ApplicationContextBase::mWindows': class 'std::vector<OgreBites::NativeWindowPair,std::allocator<OgreBites::NativeWindowPair>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\repos\ogre\Components\Bites\include\OgreApplicationContextBase.h(314,20): warning C4251: 'OgreBites::ApplicationContextBase::mWindows': class 'std::vector<OgreBites::NativeWindowPair,std::allocator<OgreBites::NativeWindowPair>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
   see declaration of 'std::vector<OgreBites::NativeWindowPair,std::allocator<OgreBites::NativeWindowPair>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreApplicationContextBase.h(317,27): warning C4251: 'OgreBites::ApplicationContextBase::mInputListeners': class 'std::set<std::pair<uint32_t,OgreBites::InputListener *>,std::less<std::pair<uint32_t,OgreBites::InputListener *>>,std::allocator<std::pair<uint32_t,OgreBites::InputListener *>>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\repos\ogre\Components\Bites\include\OgreApplicationContextBase.h(317,27): warning C4251: 'OgreBites::ApplicationContextBase::mInputListeners': class 'std::set<std::pair<uint32_t,OgreBites::InputListener *>,std::less<std::pair<uint32_t,OgreBites::InputListener *>>,std::allocator<std::pair<uint32_t,OgreBites::InputListener *>>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set(51,7):
   see declaration of 'std::set<std::pair<uint32_t,OgreBites::InputListener *>,std::less<std::pair<uint32_t,OgreBites::InputListener *>>,std::allocator<std::pair<uint32_t,OgreBites::InputListener *>>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\ogre-14.2.6\Components\Bites\include\OgreApplicationContextBase.h(319,40): warning C4251: 'OgreBites::ApplicationContextBase::mImGuiListener': class 'std::unique_ptr<OgreBites::InputListener,std::default_delete<OgreBites::InputListener>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
+C:\repos\ogre\Components\Bites\include\OgreApplicationContextBase.h(319,40): warning C4251: 'OgreBites::ApplicationContextBase::mImGuiListener': class 'std::unique_ptr<OgreBites::InputListener,std::default_delete<OgreBites::InputListener>>' needs to have dll-interface to be used by clients of class 'OgreBites::ApplicationContextBase'
   (compiling source file 'main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3172,7):
   see declaration of 'std::unique_ptr<OgreBites::InputListener,std::default_delete<OgreBites::InputListener>>'
   
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\OgreTest\OgreTest\main.cpp(354,44): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\OgreTest\OgreTest\main.cpp(354,39): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\OgreTest\OgreTest\main.cpp(354,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Personal\Documents\School\CCS Years\Year 3\Term 2\THS Project Latest\OgreTest\main.cpp(378,44): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Personal\Documents\School\CCS Years\Year 3\Term 2\THS Project Latest\OgreTest\main.cpp(378,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Personal\Documents\School\CCS Years\Year 3\Term 2\THS Project Latest\OgreTest\main.cpp(378,34): warning C4305: 'argument': truncation from 'double' to 'float'
   Generating code
-  2 of 132 functions ( 1.5%) were compiled, the rest were copied from previous compilation.
+  0 of 134 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  OgreTest.vcxproj -> C:\Users\jonat\Desktop\Stuff\School Stuff\Programs\OgreTest\x64\Release\OgreTest.exe
+  OgreTest.vcxproj -> C:\Users\Personal\Documents\School\CCS Years\Year 3\Term 2\THS Project Latest\x64\Release\OgreTest.exe
