@@ -50,6 +50,41 @@ Ogre::Vector3 initOffsetGen() {
     return Ogre::Vector3(x, constantY, z);
 }
 
+class Battery {
+public:
+    Battery(Ogre::Light* flashlight) : mBatteryFull(100.0f), mBatteryLeft(100.f), mFlashlight(flashlight)
+    {
+
+    }
+
+    void fillBatt() 
+    {
+        mBatteryLeft = mBatteryFull;
+    }
+
+    void checkBatt() {
+
+        mBatteryLeft -= 0.1f;
+        cout << mBatteryLeft << endl;
+        if (mBatteryLeft <= 0.0f) 
+        {
+            mFlashlight->setSpotlightRange(Ogre::Degree(0), Ogre::Degree(0));
+            mBatteryLeft = 0.0f;
+        }
+        else 
+        {
+            mFlashlight->setSpotlightRange(Ogre::Degree(35), Ogre::Degree(50));
+        }
+    }
+
+private:
+    Ogre::Light* mFlashlight;
+    float mBatteryLeft;
+    float mBatteryFull;
+};
+
+
+
 /*
 class KeyHandler : public OgreBites::InputListener, public Ogre::FrameListener
 {
@@ -112,8 +147,8 @@ private:
 class KeyHandler : public OgreBites::InputListener, public Ogre::FrameListener
 {
 public:
-    KeyHandler(Ogre::SceneNode* camNode, Ogre::Light* flashLight)
-        : mCamNode(camNode), mFlashLight(flashLight), mMoveSpeed(400), mBackwardSpeed(100), mDirection(Ogre::Vector3::ZERO), mPitch(0), mYaw(0)
+    KeyHandler(Ogre::SceneNode* camNode, Ogre::Light* flashLight, Battery* battery)
+        : mCamNode(camNode), mFlashLight(flashLight), mMoveSpeed(400), mBackwardSpeed(100), mDirection(Ogre::Vector3::ZERO), mPitch(0), mYaw(0), mTime(0.0f), mFrameCount(0), mBattery(battery)
     {
         //capture and hide mouse
         SDL_ShowCursor(SDL_DISABLE);
@@ -180,6 +215,7 @@ public:
 
     bool frameRenderingQueued(const Ogre::FrameEvent& evt) override
     {
+        mBattery->checkBatt();
         float currentSpeed = (mDirection.z > 0) ? mBackwardSpeed : mMoveSpeed;
 
         Ogre::Vector3 translate = mDirection * currentSpeed * evt.timeSinceLastFrame;
@@ -192,6 +228,8 @@ public:
 
         //printNodeInfo(mCamNode, "Camera Node");
         //printLightInfo(mFlashLight, "Flashlight Light");
+
+        printFPS(evt.timeSinceLastFrame);
         return true;
     }
 
@@ -199,10 +237,26 @@ private:
     Ogre::SceneNode* mCamNode;
     Ogre::Vector3 mDirection;
     Ogre::Light* mFlashLight;
+    Battery* mBattery;
     float mMoveSpeed;
     float mBackwardSpeed;
     float mPitch;
     float mYaw;
+    float mTime;
+    int mFrameCount;
+
+    void printFPS(float timeSinceLastFrame) {
+        mTime += timeSinceLastFrame;
+        mFrameCount++;
+
+        if (mTime >= 1.0f) {
+            float fps = mFrameCount / mTime;
+            cout << "FPS: " << fps << endl;
+
+            mTime = 0.0f;
+            mFrameCount = 0;
+        }
+    }
 };
 
 
@@ -303,7 +357,8 @@ int main(int argc, char* argv[])
 
     //! [main]
         // register for input events
-    KeyHandler keyHandler(camNode, flashLight);
+    Battery battery(flashLight);
+    KeyHandler keyHandler(camNode, flashLight, &battery);
     ctx.addInputListener(&keyHandler);
     root->addFrameListener(&keyHandler);
 
