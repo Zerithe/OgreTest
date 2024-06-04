@@ -96,7 +96,8 @@ bool Enemy::frameRenderingQueued(const Ogre::FrameEvent& evt)
 	// Check for collision with player
 	if (checkCollisionWithPlayer())
 	{
-	    Ogre::Root::getSingleton().queueEndRendering();  // End the game
+		std::cout << "Game Over!" << std::endl;
+		Ogre::Root::getSingleton().queueEndRendering();  // End the game
 	}
 	
 	return true;
