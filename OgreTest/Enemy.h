@@ -10,6 +10,7 @@ public:
 
 	void setFlashlight(Ogre::Light* flashLight);
 	void respawn();
+	bool checkCollisionWithPlayer();  // New method to check collision
 private:
 	Ogre::SceneManager* mScnMgr;
 	Ogre::Entity* mEnemy;
