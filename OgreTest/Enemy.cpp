@@ -34,6 +34,12 @@ void Enemy::respawn()
 	mHealth = 100.0f;
 }
 
+bool Enemy::checkCollisionWithPlayer()
+{
+    float distance = mEnemyNode->getPosition().distance(mPlayerNode->getPosition());
+    return distance < 200.0f;  // Adjust the collision threshold as needed
+}
+
 bool Enemy::frameRenderingQueued(const Ogre::FrameEvent& evt)
 {
 	//teleport when they hit 0.
@@ -86,6 +92,12 @@ bool Enemy::frameRenderingQueued(const Ogre::FrameEvent& evt)
 	{
 		mFollowSpeed = 300.f;
 	}
-
+	
+	// Check for collision with player
+	if (checkCollisionWithPlayer())
+	{
+	    Ogre::Root::getSingleton().queueEndRendering();  // End the game
+	}
+	
 	return true;
 }
